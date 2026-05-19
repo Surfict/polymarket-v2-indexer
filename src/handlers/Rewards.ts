@@ -1,4 +1,4 @@
-import { indexer } from "generated";
+import { indexer } from "envio";
 
 const eventId = (event: { chainId: number; block: { number: number }; logIndex: number }) =>
   `${event.chainId}_${event.block.number}_${event.logIndex}`;
