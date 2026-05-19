@@ -1,5 +1,5 @@
 import { describe, it } from "vitest";
-import { createTestIndexer } from "generated";
+import { createTestIndexer } from "envio";
 
 describe("CTF Exchange V2", () => {
   it("indexes real OrderFilled + OrdersMatched + FeeCharged from live trading", async (t) => {
@@ -43,7 +43,7 @@ describe("CTF Exchange V2", () => {
                   "endDate": "2026-12-31T00:00:00Z",
                   "id": "102936224134271070189104847090829839924697394514566827387181305960175107677216",
                   "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
-                  "outcomePrices": "["0.525", "0.475"]",
+                  "outcomePrices": "["0.61", "0.39"]",
                   "outcomes": "["Yes", "No"]",
                   "question": "US-Iran nuclear deal before 2027?",
                   "slug": "us-iran-nuclear-deal-before-2027",
@@ -61,7 +61,7 @@ describe("CTF Exchange V2", () => {
                   "endDate": "2026-12-31T00:00:00Z",
                   "id": "45763018441764333771124945243746174684578244015331389396782339063349542289693",
                   "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
-                  "outcomePrices": "["0.525", "0.475"]",
+                  "outcomePrices": "["0.61", "0.39"]",
                   "outcomes": "["Yes", "No"]",
                   "question": "US-Iran nuclear deal before 2027?",
                   "slug": "us-iran-nuclear-deal-before-2027",
@@ -267,7 +267,7 @@ describe("CTF Exchange V2", () => {
                   "endDate": "2026-12-31T00:00:00Z",
                   "id": "102936224134271070189104847090829839924697394514566827387181305960175107677216",
                   "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
-                  "outcomePrices": "["0.525", "0.475"]",
+                  "outcomePrices": "["0.61", "0.39"]",
                   "outcomes": "["Yes", "No"]",
                   "question": "US-Iran nuclear deal before 2027?",
                   "slug": "us-iran-nuclear-deal-before-2027",
@@ -285,7 +285,7 @@ describe("CTF Exchange V2", () => {
                   "endDate": "2026-12-31T00:00:00Z",
                   "id": "45763018441764333771124945243746174684578244015331389396782339063349542289693",
                   "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
-                  "outcomePrices": "["0.525", "0.475"]",
+                  "outcomePrices": "["0.61", "0.39"]",
                   "outcomes": "["Yes", "No"]",
                   "question": "US-Iran nuclear deal before 2027?",
                   "slug": "us-iran-nuclear-deal-before-2027",

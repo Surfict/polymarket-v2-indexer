@@ -1,5 +1,5 @@
 import { describe, it } from "vitest";
-import { createTestIndexer } from "generated";
+import { createTestIndexer } from "envio";
 
 describe("Rewards", () => {
   it("indexes MarketCreated + Sponsored via simulate", async (t) => {

@@ -1,5 +1,5 @@
 import { describe, it } from "vitest";
-import { createTestIndexer } from "generated";
+import { createTestIndexer } from "envio";
 
 describe("PolyUSD", () => {
   it("indexes real PolyUSD events from deployment block", async (t) => {

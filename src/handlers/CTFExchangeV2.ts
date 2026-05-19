@@ -1,4 +1,4 @@
-import { indexer } from "generated";
+import { indexer } from "envio";
 import { getMarketMetadata } from "../effects/marketMetadata";
 
 const ZERO_BYTES32 = "0x0000000000000000000000000000000000000000000000000000000000000000";
